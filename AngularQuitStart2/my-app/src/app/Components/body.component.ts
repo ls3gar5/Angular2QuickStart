@@ -8,5 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class BodyComponent implements OnInit {
     constructor() { }
 
+    showText = true;
+    texto = "Un gran poder";
+    autor = "Ben Parker";
+    villanosList: string[] = ["Venon", "Octupus"];
+
     ngOnInit() { }
 }
